@@ -1,0 +1,19 @@
+export default [
+    {
+        path:'/attendance',
+        name:'Attendace',
+        meta:{auth:['boss','administration']},
+        component:()=>import('@/views/AuthRouter/Attendance.vue')
+    },
+    {
+        path:'/salary',
+        name:'Salary',
+        meta:{auth:['boss','finance']},
+        component:()=>import('@/views/AuthRouter/Salary.vue')
+    },
+    {
+        path:'/*',
+        meta:{auth:['anyone']},
+        component:()=>import('@/components/404.vue')
+    }
+]

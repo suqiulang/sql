@@ -1,0 +1,30 @@
+.mt{
+    margin-top:10px;
+}
+.mb{
+    margin-bottom:10px;
+}
+.ml{
+    margin-left:10px;
+}
+.mr{
+    margin-right:10px;
+}
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+.clear{
+    clear:both;
+} 
+.ta{
+    text-align: center;
+}
+.tr{
+    text-align:right;
+}
+.tl{
+    text-align:left;
+}
